@@ -22,6 +22,7 @@ html, body {
 
 body {
   line-height: 1.5;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 input, textarea {

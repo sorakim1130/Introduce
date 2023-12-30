@@ -37,6 +37,7 @@ const Container = styled.div`
   
   .description {
     font-size: 20px;
+    color: #555;
   }
   
 `;
