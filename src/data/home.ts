@@ -13,6 +13,6 @@ export const myStory: IMyStory = {
 export const sections: ISection[] = [
   {
     title: "works",
-    companies
+    companies,
   }
 ]

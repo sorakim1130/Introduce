@@ -18,7 +18,6 @@ export interface ICompanyProject {
   title: string
   description: string
   thumbnail: string
-  period: string
   percentage: string
   tags: string[]
   links: {
