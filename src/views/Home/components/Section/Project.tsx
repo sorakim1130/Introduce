@@ -32,7 +32,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
   white-space: pre-line;
   h4 {
     font-size: 32px;

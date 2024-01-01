@@ -20,7 +20,7 @@ export interface ICompany {
 export interface IProject {
   title: string
   description: string
-  thumbnail: string
+  thumbnail?: string
   percentage: string
   tags: string[]
   links: {

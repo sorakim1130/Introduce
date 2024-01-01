@@ -15,7 +15,7 @@ const Container = styled.div`
   margin-bottom: 60px;
   h2 {
     font-size: 48px;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
     font-weight: bold;
   }
   
