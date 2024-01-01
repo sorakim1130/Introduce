@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import {sections} from "@/data/home";
 import MyStory from "@/views/Home/components/MyStory";
 import Section from "@/views/Home/components/Section";
+import ToyProject from "@/views/Home/components/ToyProject";
 
 const Home = () => {
   return (

@@ -1,18 +1,18 @@
 import styled from "@emotion/styled";
 import Link from "next/link";
-import {ICompanyProject} from "@/types/home";
+import {IProject} from "@/types/home";
 interface Props {
-    data: ICompanyProject
+    data: IProject["links"]
 }
 const Links = ({data}:Props) => {
 
   return (
     <Container>
-            {
-                data.links.map((item) => (
-                    <Link key={item.title} href={item.url} target={"_blank"}>{item.title}</Link>
-                ))
-            }
+        {
+            data?.map?.((item) => (
+                <Link key={item.title} href={item.url} target={"_blank"}>{item.title}</Link>
+            ))
+        }
     </Container>
   )
 }

@@ -1,3 +1,5 @@
+import {toyProjects} from "@/data/toyProjects";
+
 export interface IMyStory {
   title: string
   description: string
@@ -5,16 +7,17 @@ export interface IMyStory {
 
 export interface ISection {
   title: string
-  companies: ICompany[]
+  companies?: ICompany[]
+  toyProjects?: IProject[]
 }
 
 export interface ICompany {
   name: string
   period: string
-  projects: ICompanyProject[]
+  projects: IProject[]
 }
 
-export interface ICompanyProject {
+export interface IProject {
   title: string
   description: string
   thumbnail: string
