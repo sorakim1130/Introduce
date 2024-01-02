@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import {IProject} from "@/types/home";
 import Links from "@/views/Home/components/Section/Links";
+import Tags from "@/views/Home/components/Section/Tags";
 
 interface Props {
     data: IProject
@@ -17,6 +18,8 @@ const ToyProject = ({data}: Props) => {
                 </Thumbnail>
                 <Description>
                     <p>{data.description}</p>
+                    <p className={"percentage"}>기여도 {data.percentage}</p>
+                    <Tags tags={data.tags}/>
                     <Links data={data.links}/>
                 </Description>
             </Content>
