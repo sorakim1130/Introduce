@@ -17,12 +17,12 @@ export const toyProjects = [
     ],
     skills: [
       "검색 : 검색 api를 통하여 검색 기능을 구현하며 검색 로직에 대한 이해도를 높였습니다.",
-      "무한 스크롤 : Intersection Observer를 이용하여 무한스크롤을 구현하였습니다. IntersectionObserver hook을 이용하여 infinite scroll 컴포넌트를 구현함으로써 재사용이 가능하도록 구현하였습니다.",
+      "무한 스크롤 : IntersectionObserver를 이용하여 무한스크롤을 구현하였습니다. IntersectionObserver hook을 이용하여 infinite scroll 컴포넌트를 구현함으로써 재사용이 가능하도록 구현하였습니다.",
       "상세페이지 : 상세페이지를 구현하며 라우팅에 대한 이해도를 높였습니다.",
       "ReactQuery : 기존의 redux나 zustand에서 모두 관리해야 했던 서버상태를 편하게 관리함으로써 상태관리의 복잡도를 낮출 수 있었고,  필요한 부분에서 실시간 싱크가 필요하지 않는 서버상태들은 캐시를 이용함으로써 불필요한 네트워크 호출을 줄이고, 데이터가 빠르게 노출되도록 ux를 개선을 하였습니다. ",
       "이미지 사이즈를 체크하여 Masonry 타일 그리드를 직접 구현하였습니다.",
       "dialog, modal, toast를 함수형으로 어디서나 편하게 사용 가능하고 사용될때만 렌더링 되도록 구현하였습니다.",
-      "    - Api intersector와 try catch을 통하여 공통 예외처리를 하고 다이얼로그를 제공함으로서 ux 및 dx 개선하였고, 해당 에러는 센트리를 통하여 레포트 함으로써 에러처리를 좀 더 유연하게 할 수 있었습니다.",
+      "Api intersector와 try catch을 통하여 공통 예외처리를 하고 다이얼로그를 제공함으로서 ux 및 dx 개선하였고, 해당 에러는 센트리를 통하여 레포트 함으로써 에러처리를 좀 더 유연하게 할 수 있었습니다.",
     ],
   },
   {
