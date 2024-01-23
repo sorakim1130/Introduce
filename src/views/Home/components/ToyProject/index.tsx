@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import {IProject} from "@/types/home";
 import Links from "@/views/Home/components/Section/Links";
 import Tags from "@/views/Home/components/Section/Tags";
+import Skills from "@/views/Home/components/Section/Skills";
 
 interface Props {
     data: IProject
@@ -11,6 +12,7 @@ const ToyProject = ({data}: Props) => {
 
     return (
         <Container>
+            {/*<Skills />*/}
             <h3>{data.title}</h3>
             <Content>
                 <Thumbnail>
@@ -23,6 +25,7 @@ const ToyProject = ({data}: Props) => {
                     <Links data={data.links}/>
                 </Description>
             </Content>
+            <Skills data={data} />
         </Container>
     )
 }
@@ -40,6 +43,7 @@ const Content = styled.div`
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  margin-bottom: 60px;
   
 `
 const Thumbnail = styled.div`

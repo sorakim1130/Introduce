@@ -3,6 +3,7 @@ import {ISection} from "@/types/home";
 import Company from "@/views/Home/components/Section/Company";
 import {toyProjects} from "@/data/toyProjects";
 import ToyProject from "@/views/Home/components/ToyProject";
+import Skills from "@/views/Home/components/Section/Skills";
 
 interface Props {
     data: ISection

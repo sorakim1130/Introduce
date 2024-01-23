@@ -8,7 +8,7 @@ const Tags = ({tags}: Props) => {
   return (
     <Container>
       {
-        tags.map((text) => <Tag key={text}>
+        tags?.map((text) => <Tag key={text}>
           {text}
         </Tag>)
       }

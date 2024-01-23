@@ -1,4 +1,5 @@
 import {toyProjects} from "@/data/toyProjects";
+import skills from "@/views/Home/components/Section/Skills";
 
 export interface IMyStory {
   title: string
@@ -17,6 +18,7 @@ export interface ICompany {
   projects: IProject[]
 }
 
+
 export interface IProject {
   title: string
   description: string
@@ -27,4 +29,5 @@ export interface IProject {
     title: string
     url: string
   }[]
+  skills?: string[]
 }
