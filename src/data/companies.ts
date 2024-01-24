@@ -6,9 +6,10 @@ export const companies = [
       {
         title: "밸류맵",
         description: `
-        밸류맵의 모든 UI개발을 담당하고 있었으며, html, css에 대한 이해도가 높고,
-        javascript, jquery의 기존 지식을 가지고 있습니다.
-        홈페이지 리뉴얼을 진행하면서 기존의 레거시 코드를 제거하고 분리하는 과정에서 next.js를 도입하여 리뉴얼 프로젝트를 진행하면서 React와 Typescript에 대한 이해도를 높일 수 있었습니다.
+        밸류맵의 모든 ui개발을 담당하고 있었으며, 디자인 시스템, html, css에 대한 이해도가 높고,
+        또한 javascript, jquery의 기존 지식을 가지고 있습니다.
+        자사 서비스 리뉴얼을 진행하면서 기존의 레거시 코드를 제거하고 백엔드와 프론트엔드를 
+        분리하는 과정에서 next.js를 도입하여 리뉴얼 프로젝트를 진행하였고, Typescript, tailwind에 대한 경험과 이해도를 높일 수 있었습니다.
          `,
         percentage: "100%",
         tags: [
