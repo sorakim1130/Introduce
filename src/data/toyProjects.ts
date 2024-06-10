@@ -12,7 +12,7 @@ export const toyProjects = [
       },
       {
         title: "Source",
-        url: "https://github.com/ssra91/unsplash",
+        url: "https://github.com/sorakim1130/unsplash",
       },
     ],
     skills: [
@@ -39,7 +39,7 @@ export const toyProjects = [
       },
       {
         title: "Source",
-        url: "https://github.com/ssra91/kimtube",
+        url: "https://github.com/sorakim1130/kimtube",
       },
     ],
     skills: [
